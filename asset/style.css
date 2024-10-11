@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+ 
+ 
+ body{
+            display: flex;
+            justify-content: center;
+            background-color: #eef7fe;
+            font-family: "Nunito", sans-serif;
+           
+        }
+        section{
+            width: 50%;
+        }
+        .header1{
+            background-color: #252679;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-inline: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+          
+        }
+        .header1 a{
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+      
+        .logo{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .logo img{
+            margin-top: 70px;
+        }
+        .heading{
+            text-align: center;
+        }
+        /* .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           background-color: #252679;
+            
+        } */
+         .box{
+            /* border: 2px solid black; */
+            width: 80%;
+           margin: 10px;
+          
+          
+           /* border: none; */
+         }
+        .box a {
+            /* padding-top: 5px; */
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+           
+
+        }
+        .social-icons{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+       
+        }
+    .logo-head{
+        display: flex;
+        border-radius: 8px;
+        background-color: white;
+        padding: 7px;
+        justify-content: center;
+    } 
+ 
+    .logo-head a{
+        padding-left: 12px;
+    }
+    .made {
+        font-style: italic;
+         text-align: center;
+    }
+    @media screen and (max-width: 425px) {
+            section{
+                width: 100%;
+            }
+           
+    }
