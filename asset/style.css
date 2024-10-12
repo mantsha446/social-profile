@@ -21,12 +21,17 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-left: 20px;
+            padding: 8px 15px 8px 15px;
           
         }
-        .header1 a{
-            padding-top: 10px;
-            padding-left: 10px;
+     .header1 a{
+            text-decoration: none;
+            background-color: #E6600E;
+            color: white;
+            border-radius: 14px;
+             padding: 5px 12px 5px 12px;
+             text-align: center;
+            
         }
       
         .logo{
@@ -42,15 +47,11 @@
         }
         
          .box{
-            /* border: 2px solid black; */
             width: 90%;
            margin: 10px;
           
-          
-           /* border: none; */
          }
         .box a {
-            /* padding-top: 5px; */
             color: black;
             text-decoration: none;
             font-size: 20px;
